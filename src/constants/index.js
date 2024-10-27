@@ -1,28 +1,33 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+  backend,
+  creator,
+  mobile,
+  web,
+  angular,
+  java,
+  linux,
+  neo4j,
+  ngxs,
+  postgres,
+  primeng,
+  python,
+  rxjs,
+  spring,
+  wordpress,
+  css,
+  docker,
+  git,
+  html,
+  javascript,
+  typescript,
+  threejs,
+  shopify,
+  adesso,
+  hsbo,
+  klarheit,
+  carrent,
+  jobit,
+  tripguide,
   } from "../assets";
   
   export const navLinks = [
@@ -77,26 +82,6 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -105,23 +90,67 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "angular",
+      icon: angular
+    },
+    {
+      name: "java",
+      icon: java 
+    },
+    {
+      name: "linux",
+      icon: linux
+    }
+    ,
+    {
+      name: "neo4j",
+      icon: neo4j
+    },
+    {
+      name: "ngxs",
+      icon: ngxs
+    },
+    {
+      name: "postgres",
+      icon: postgres
+    },
+    {
+      name: "primeng",
+      icon: primeng
+    },
+    {
+      name: "python",
+      icon: python
+    },
+    {
+      name: "rxjs",
+      icon: rxjs
+    },
+    {
+      name: "spring boot",
+      icon: spring
+    },
+    {
+      name: "wordpress",
+      icon: wordpress
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Werkstudent Webentwickler",
+      company_name: "adesso",
+      icon: adesso,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2022 - Okt 2024",
       points: [
+        "Entwicklung einer Anwendung zur Analyse von COBOL-Programmen unter Verwendung von Angular für die Benutzeroberfläche",
+        "Erstellung von Reports und grafische Darstellung von Daten aus COBOL-Anwendungen unter Verwendung von JasperReports und ngx-graph",
+        "Entwicklung von REST-Schnittstellen zur Abfrage projektspezifischer Informationen aus dem Graphdatenbank",
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -129,24 +158,24 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Werkstudent Systemadministration",
+      company_name: "Hochschule Bochum",
+      icon: hsbo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021- Jan 2022",
       points: [
+        "Administration der Hochschulserver für Moodle",
+        "Containerisierung mit Docker",
+        "Verwaltung der Moodle-Platform der Hochschule",
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Freelancer",
+      company_name: "Freelancing",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "-",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,9 +184,9 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Praktikant",
+      company_name: "Sparkasse Northeim",
+      icon: adesso,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -198,25 +227,17 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Klarheit UG",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Beschreibung fehlt",
       tags: [
         {
-          name: "react",
+          name: "wordpress",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: klarheit,
+      source_code_link: "https://klarheit-edu.de/",
     },
     {
       name: "Job IT",
