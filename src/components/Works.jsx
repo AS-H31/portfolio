@@ -79,11 +79,8 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          some block of text about my work and projects. maybe bachelor and
-          freelancing projects and so on some block of text about my work and
-          projects. maybe bachelor and freelancing projects and so onsome block
-          of text about my work and projects. maybe bachelor and freelancing
-          projects and so on
+          Below are some of the projects I worked on during my studies and as a
+          freelancer.
         </motion.p>
       </div>
 

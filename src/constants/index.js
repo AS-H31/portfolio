@@ -25,9 +25,8 @@ import {
   adesso,
   hsbo,
   klarheit,
-  carrent,
-  jobit,
-  tripguide,
+  trusty,
+  nachhilfe,
   } from "../assets";
   
   export const navLinks = [
@@ -59,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Python Dev",
+      title: "Python and Java Tutor",
       icon: creator,
     },
   ];
@@ -148,13 +147,12 @@ import {
       iconBg: "#383E56",
       date: "Feb 2022 - Okt 2024",
       points: [
-        "Entwicklung einer Anwendung zur Analyse von COBOL-Programmen unter Verwendung von Angular für die Benutzeroberfläche",
-        "Erstellung von Reports und grafische Darstellung von Daten aus COBOL-Anwendungen unter Verwendung von JasperReports und ngx-graph",
-        "Entwicklung von REST-Schnittstellen zur Abfrage projektspezifischer Informationen aus dem Graphdatenbank",
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications for analyzing COBOL programs using Angular and other related technologies.",
+        "Development of REST interfaces for querying project-specific information from the graph database.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creation of reports and graphical representation of data from COBOL applications using JasperReports and ngx-graph."
       ],
     },
     {
@@ -164,10 +162,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021- Jan 2022",
       points: [
-        "Administration der Hochschulserver für Moodle",
-        "Containerisierung mit Docker",
-        "Verwaltung der Moodle-Platform der Hochschule",
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Administration of the university servers for Moodle.",
+        "Containerization with Docker.",
+        "Management of the university's Moodle platform.",
       ],
     },
     {
@@ -175,25 +172,25 @@ import {
       company_name: "Freelancing",
       icon: shopify,
       iconBg: "#383E56",
-      date: "-",
+      date: "Since 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining WordPress websites.",
+        "Developing and maintaining web applications built with Angular.",
+        "Managing hosting services and domain registrations.",
+        "Providing IT support and troubleshooting as needed.",
       ],
     },
     {
-      title: "Praktikant",
+      title: "Intern",
       company_name: "Sparkasse Northeim",
       icon: adesso,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2016 - Aug 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provide comprehensive customer support, addressing inquiries, resolving issues, and ensuring a positive experience for all clients.",
+        "Accounting.",
+        "Credit processing",
+        "Wealth consulting.",
       ],
     },
   ];
@@ -229,20 +226,24 @@ import {
     {
       name: "Klarheit UG",
       description:
-        "Beschreibung fehlt",
+        "Webpage for a tutoring institute, showcasing its services and company information.",
       tags: [
         {
           name: "wordpress",
           color: "blue-text-gradient",
+        },  
+        {
+          name: "freelance",
+          color: "green-text-gradient",
         },
       ],
       image: klarheit,
       source_code_link: "https://klarheit-edu.de/",
     },
     {
-      name: "Job IT",
+      name: "Trusty Handwerker",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application that allows users to search for craftsmen, view estimated hourly rates, and locate available craftsmen based on their current location.",
       tags: [
         {
           name: "react",
@@ -256,29 +257,29 @@ import {
           name: "scss",
           color: "pink-text-gradient",
         },
+        {
+          name: "php",
+          color: "purple-text-gradient"
+        }
       ],
-      image: jobit,
+      image: trusty,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Tutoring",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "I offer tutoring for university students without an IT background.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "python",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+          name: "java",
+          color: "brown-text-gradient",
+        }
       ],
-      image: tripguide,
+      image: nachhilfe,
       source_code_link: "https://github.com/",
     },
   ];

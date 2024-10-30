@@ -45,9 +45,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        a block of text about my self. should be edited a block of text about my
-        self. should be edited a block of text about my self. should be edited a
-        block of text about my self. should be edited
+        During my work, studies, and free time, I have gained a wealth of
+        experience in various areas of IT. Below are some roles I have held and
+        focused on throughout my academic and professional career.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

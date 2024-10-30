@@ -31,9 +31,8 @@ import adesso from "./company/adesso.png"
 import hsbo from "./company/hsbo.png"
 
 import klarheit from "./klarheit.png"
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import trusty from "./trusty.png"
+import nachhilfe from "./nachhilfe.jpg"
 
 export {
   logo,
@@ -66,7 +65,6 @@ export {
   adesso,
   hsbo,
   klarheit,
-  carrent,
-  jobit,
-  tripguide,
+  trusty,
+  nachhilfe
 };
