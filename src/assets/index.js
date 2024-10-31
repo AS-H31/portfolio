@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./icon.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -14,25 +14,25 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
-import angular from "./tech/angular.png"
+import angular from "./tech/angular.png";
 import java from "./tech/java.png";
-import linux from "./tech/linux.png"
-import neo4j from "./tech/neo4j.png"
-import ngxs from "./tech/ngxs.png"
-import postgres from "./tech/postgres.png"
-import primeng from "./tech/primeng-logo.png"
-import python from "./tech/python.png"
-import rxjs from "./tech/rxjs.png"
-import spring from "./tech/spring.png"
-import wordpress from "./tech/wordpress.png"
+import linux from "./tech/linux.png";
+import neo4j from "./tech/neo4j.png";
+import ngxs from "./tech/ngxs.png";
+import postgres from "./tech/postgres.png";
+import primeng from "./tech/primeng-logo.png";
+import python from "./tech/python.png";
+import rxjs from "./tech/rxjs.png";
+import spring from "./tech/spring.png";
+import wordpress from "./tech/wordpress.png";
 import shopify from "./company/shopify.png";
 
-import adesso from "./company/adesso.png"
-import hsbo from "./company/hsbo.png"
+import adesso from "./company/adesso.png";
+import hsbo from "./company/hsbo.png";
 
-import klarheit from "./klarheit.png"
-import trusty from "./trusty.png"
-import nachhilfe from "./nachhilfe.jpg"
+import klarheit from "./klarheit.png";
+import trusty from "./trusty.png";
+import nachhilfe from "./nachhilfe.jpg";
 
 export {
   logo,
@@ -66,5 +66,5 @@ export {
   hsbo,
   klarheit,
   trusty,
-  nachhilfe
+  nachhilfe,
 };

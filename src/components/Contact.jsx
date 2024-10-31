@@ -8,9 +8,6 @@ import { SectionWrapper } from "../hoc";
 import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
 
-// template_v4pbsch
-// service_evk0qf9
-// utyMFZKm1DkVW1a9S
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -37,13 +34,13 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_KEY,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_KEY,
         {
           from_name: form.name,
           to_name: "Ahmad Shiyar Hesso",
           from_email: form.email,
-          to_email: "me@ahmad-shiyar-hesso.com", //TODO
+          to_email: "me@ahmad-shiyar-hesso.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
